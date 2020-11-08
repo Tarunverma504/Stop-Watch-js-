@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stop Watch</title>
+	<meta name="viewport" content="width=device-width, initial-scale=0.3">
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	<div class="container">
+		<button style="background-color:#cc0000" onclick="start()">Start</button>
+		<button style="background-color:orange" onclick="pause()">Pause</button>
+		<button style="background-color:#66cc00" onclick="stop()">Stop</button>
+		<button style="background-color:#0052cc" onclick="reset()">Reset</button>
+		<button style="background-color:#9900cc" onclick="laps()">Laps</button>
+		<button style="background-color:#47476b" onclick="resetlaps()">Reset Laps</button>
+	</div>
+	<div class="stopwatch" id="watch">00:00:00</div><br><br><br>
+	<div class='lap'><ul id="_laps"></ul></div>
+	<script src='js.js'></script>
+</body>
+</html>
